@@ -19,5 +19,5 @@ jobs:
           path: ~/.cache-demo
           key: cache-91717c6
 
-      - name: prime-cache-91717c6
+      - name:  prime-cache-91717c6
         run: echo "Cache hit? ${{ steps.cache.outputs.cache-hit }}"
